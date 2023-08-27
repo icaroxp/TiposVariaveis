@@ -1,6 +1,9 @@
 public class OperadoresLogicos {
     public static void main(String[] args)throws Exception{
 
+/*Operadores lógicos são aqueles que comummente usamos para indicarmos igualdade, maior ou igual, maior, menor...
+Podemos representar como:
+ ==, !=, <, >, <=, >= /* */ 
 
 //teste de Operadores aritmeticos:
 int multiplicação = 20*13;
@@ -21,10 +24,25 @@ System.out.println(modulo);
 
 //aprendendo operadores (mudando o valor para positivo e negativo)
 int num = 5;
-num = - num;
 
-num = num*(-1);
-System.out.println(num);
+
+System.out.println(++ num ); //incrementando +1 quando o programa rodar
+
+
+System.out.println(-- num);//decrementando em -1 quando o programa rodar
+
+
+
+//mostrando valores booleanos:
+
+boolean va = true; //aqui eu disse que a boolean va é true;
+
+System.out.println(!va); //aqui eu disse que a boolean va vai imprimir que va é false (pois usei a inversão dentro do print)
+
+va = !va; //agora eu disse que nossa variavel passou de fato a sert true, ivnertemos o valor da variavel do tipo booleana;
+
+System.out.println(va);
+
 
 
 
