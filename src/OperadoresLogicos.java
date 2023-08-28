@@ -43,7 +43,7 @@ va = !va; //agora eu disse que nossa variavel passou de fato a ser false, ivnert
 
 System.out.println(va);
 
-//agora vamos abreviar com uso de operador alternário:
+//agora vamos abreviar com uso de operador Ternário:
 
 /*Por exemplo, quando queremos dizer que, se a for igual a b, uma mensagem será exbibida como (verdadeiro caso for verdade),
  * e caso fou falso (falso);
@@ -66,9 +66,38 @@ System.out.println(va);
 
         System.out.println(resultado);
 
+        //como neste exemplo, temos verdadeiro ou falso, o resultado se espera ser do tipo string
+        //caso fosse com inteiro, por exemplo, a==b ?1 : 2, o resultado se espera que seja tipo int, float...
+
+
+        int numero5 = 5;
+        int numero6 = 6;
+
+        boolean simNao = numero5 == numero6;
+
+        System.out.println("Numero cinco é igual ao numero Seis?" + " " + simNao);
+
+        simNao= numero5 != numero6;
+
+        System.out.println("Numero cinco é diferente de numero Seis?" + " " + simNao);
+
+        simNao = numero5 > numero6;
+
+        System.out.println("Número cinco é maior do que numero seis?" + " " + simNao);
 
 
 
+        if(numero5 < numero6){
+
+            System.out.println("Sim");
+         }else{
+            System.out.println("Não");
+         }
+            
+            
+
+        
+        
 
 
     }
