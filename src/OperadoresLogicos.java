@@ -96,8 +96,12 @@ System.out.println(va);
             
             
 
+        //teste com equals:
+
+        String nomeUm = "Icaro";
+        String nomeDois = "Icaro";
         
-        
+        System.out.println(nomeUm.equals(nomeDois));
 
 
     }
