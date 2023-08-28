@@ -104,5 +104,26 @@ System.out.println(va);
         System.out.println(nomeUm.equals(nomeDois));
 
 
+        //teste de Operadores lógicos :
+
+        boolean condicao1=false;
+        boolean condicao2=true;
+
+        if(condicao1 && condicao2){
+            System.out.println("As condições são verdadeiras(true)");
+        }else{System.out.println("As condições são diferentes(false)");}
+
+    
+        //Neste caso, o print é 
+            if(condicao1 || condicao2){
+            System.out.println("Ao menos uma das condições true.");
+        }else{  System.out.println("As condições são false");
+    }
+
+    if(condicao1 && (1>2)){
+        System.out.println("Verdade");
+    }else{System.out.println("Mentira");}
+    //Neste caso, o resultado do print é "Mentira", pois uma das alternativas é falsa.
     }
 }
+
