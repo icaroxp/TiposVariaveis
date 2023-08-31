@@ -109,12 +109,13 @@ System.out.println(va);
         boolean condicao1=false;
         boolean condicao2=true;
 
+         //Neste caso, o print é "As condições são diferentes(false)" pois as duas não são iguais.
         if(condicao1 && condicao2){
             System.out.println("As condições são verdadeiras(true)");
         }else{System.out.println("As condições são diferentes(false)");}
 
     
-        //Neste caso, o print é 
+        //Neste caso, o print é "Ao menos uma das condições true." pois um deles é true
             if(condicao1 || condicao2){
             System.out.println("Ao menos uma das condições true.");
         }else{  System.out.println("As condições são false");
