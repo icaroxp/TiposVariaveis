@@ -18,14 +18,12 @@ public class AboutMe {
         System.out.println("Digite sua altura");
         double altura = scanner.nextDouble();
 
-        System.out.println("Digite o tamanho do seu pau");
-        int pau = scanner.nextInt();
+
         
         //imprimindo os dados obtidos pelo usuario
         System.out.println("Ola, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos ");
         System.out.println("Minha altura é " + altura + "cm ");
-        System.out.println("O tamanho do meu pau é de:" + pau + "cm");
         
     }
 }
