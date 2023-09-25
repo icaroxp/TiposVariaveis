@@ -12,9 +12,9 @@ public class exDoWhile {
 
 
     }
-    private static boolean tocando(){
-        boolean atendeu = new Random().nextInt(3)==1;
+    private static boolean tocando(){ //Nosso método tocando 
+        boolean atendeu = new Random().nextInt(3)==1; //Nosso metodo random entre1 e 3, quando ele atende
         System.out.println("Atendeu? "+atendeu);
-        return ! atendeu;
+        return ! atendeu; //dizemos que quandoe ele atendeu, não precisamos mais que ele toque
     }
 }

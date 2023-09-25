@@ -2,6 +2,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+
 import javax.xml.validation.Validator;
 
 public class planoTelefonico {

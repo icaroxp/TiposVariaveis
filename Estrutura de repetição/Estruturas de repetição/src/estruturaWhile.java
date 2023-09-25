@@ -1,4 +1,4 @@
-import java.util.Random; 
+
 public class estruturaWhile{
     public static void main(String[] args) {
         
@@ -9,7 +9,7 @@ public class estruturaWhile{
         System.out.println("Joaozino recebeu R$50.00 em mesada, e após isso, foi ao mercado comprar doces.");
 
         while(mesada > 0){
-            Double valorDoce = new Random();
+            Double valorDoce = 10.0;
 
 
             System.out.println("Doce do valor: "+valorDoce +" "+"Adicionado no carrinho");
